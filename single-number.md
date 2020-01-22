@@ -43,16 +43,18 @@ const singleNumber = function(nums) {
 };
 ```
 ## comment
-- 비트 연산자
-    |연산자|사용법|설명|
-    |:---:|:--:|:--|
-    |[비트단위 논리곱](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND)|`a & b`|두 피연산자의 각 자리 비트의 값이 둘다 1일 경우 해당하는 자리에 1을 반환합니다.|
-    |[비트단위 논리합](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR)|`a | b`|두 피연산자의 각 자리 비트의 값이 둘다 0일 경우 해당하는 자리에 0을 반환합니다. |
-    |[비트단위 배타적 논리합]()|`a ^ b`|두 피연산자의 각 자리 비트의 값이 같을 경우 해당하는 자리에 0을 반환합니다. [두 피연산자의 각 자리 비트의 값이 다를 경우 해당하는 자리에 1을 반환합니다.]|
-    |[비트단위 부정](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_NOT)|`~ a`|피연산자의 각 자리의 비트를 뒤집습니다. |
-    |[왼쪽 시프트](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)|`a << b`|오른쪽에서 0들을 이동시키면서, a의 이진수의 각 비트를 b비트 만큼 왼쪽으로 이동시킨 값을 반환합니다. |
-    |[부호 전파 오른쪽 시프트](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Right_shift)|`a >> b`|사라지는 비트를 버리면서, a의 이진수의 각 비트를 b비트만큼 이동시킨 값을 반환합니다.|
-    |[부호 없는 오른쪽 시프트](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Unsigned_right_shift)|`a >>> b`|사라지는 비트를 버리고 왼쪽에서 0을 이동시키면서 a의 이진수의 각 비트를 b비트만큼 이동시킨 값을 반환합니다.|    
+- 비트 연산자  
+
+	| 연산자 | 사용법 | 설명 |  
+	| :------: | :------: | :------- |  
+	| [비트단위 논리곱](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND) | `a & b` | 두 피연산자의 각 자리 비트의 값이 둘다 1일 경우 해당하는 자리에 1을 반환합니다. |  
+	| [비트단위 논리합](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR) | `a | b` | 두 피연산자의 각 자리 비트의 값이 둘다 0일 경우 해당하는 자리에 0을 반환합니다. |  
+	| [비트단위 배타적 논리합](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR) | `a ^ b` | 두 피연산자의 각 자리 비트의 값이 같을 경우 해당하는 자리에 0을 반환합니다. <br /> [두 피연산자의 각 자리 비트의 값이 다를 경우 해당하는 자리에 1을 반환합니다.] |  
+	| [비트단위 부정](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_NOT) | `~ a` | 피연산자의 각 자리의 비트를 뒤집습니다. |  
+	| [왼쪽 시프트](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift) | `a << b` | 오른쪽에서 0들을 이동시키면서, a의 이진수의 각 비트를 b비트 만큼 왼쪽으로 이동시킨 값을 반환합니다.  |  
+	| [부호 전파 오른쪽 시프트](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Right_shift) | `a >> b` | 사라지는 비트를 버리면서, a의 이진수의 각 비트를 b비트만큼 이동시킨 값을 반환합니다. |  
+	| [부호 없는 오른쪽 시프트](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Unsigned_right_shift) | `a >>> b` | 사라지는 비트를 버리고 왼쪽에서 0을 이동시키면서 a의 이진수의 각 비트를 b비트만큼 이동시킨 값을 반환합니다. |  
+
     https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators  
     
 - `delete` 연산자는 객체의 속성을 제거합니다. 제거한 객체의 참조를 어디에서도 사용하지 않는다면 나중에 자원을 회수합니다.  
